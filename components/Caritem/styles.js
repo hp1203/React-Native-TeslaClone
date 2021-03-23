@@ -9,15 +9,18 @@ export default styles = StyleSheet.create({
     titles:{
       marginTop:'30%',
       width:'100%',
-      alignItems:"center"
+      alignItems:"center",
+      paddingHorizontal:20,
     },
     title:{
       fontSize:40,
-      fontWeight:"500"
+      fontWeight:"500",
+      textAlign:"center"
     },
     subtitle:{
       fontSize:16,
-      color:"#5c5e62"
+      color:"#5c5e62",
+      textAlign:"center"
     },
     image:{
       width:'100%',

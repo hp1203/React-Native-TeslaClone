@@ -17,4 +17,14 @@ export default [{
   tagline: 'Order Online for',
   taglineCTA: 'Touchless Delivery',
   image: require('../../assets/images/ModelY.jpeg'),
+},
+{
+  name: "Lowest Cost Solar Panels in America",
+  tagline: "Money-back guarantee",
+  image: require('../../assets/images/SolarPanels.jpeg')
+},
+{
+  name: "Solar for New Roofs",
+  tagline: " Solar Roof Costs Less Than a New Roof Plus Solar Panels ",
+  image: require('../../assets/images/SolarRoof.jpeg')
 }];
