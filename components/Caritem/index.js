@@ -5,7 +5,8 @@ import styles from './styles';
 
 const Caritem = (props) => {
 
-    const {name, tagline, taglineCTA, image} = props;
+  console.log(props.car)
+    const {name, tagline, taglineCTA, image} = props.car;
     return (
         <View style={styles.carContainer}>
         <ImageBackground source={image} style={styles.image}/>
